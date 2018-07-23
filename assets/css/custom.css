@@ -160,6 +160,66 @@ body {
     background-color: #30777b;
     background-blend-mode: multiply;
 }
+.home-card{
+    background-color: black;
+    padding: 10px;
+}
+.b-n{
+    border: none;
+}
+.home-font{
+    font-size: 25px;
+    color: white;
+    font-family: "kanitlight";
+}
+.home-overlay-image{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    height: 37px;
+}
+.home-image-full{
+    position: absolute;
+    display: block;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+.home-overlay-image2{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    height: 405px;
+}
+.home-image-full2 {
+    position: absolute;
+    display: block;
+    width: 100%;
+    top: 12%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    transform: scale(1.5);
+}
+.home-padding{
+    padding: 0px;
+}
+.home-p-t{
+    padding-top: 50px;
+}
+.home-btn{
+    background-color: #031f25;
+    width: 350px;
+    height: 70px;
+    border-radius: 0px;
+    color: white;
+    border: 5px ;
+    box-shadow: 0px 0px 0px 8px rgba(0,0,0,0.3);
+    font-family: "kanitlight";
+    font-size: 30px;
+}
 /*-------------------------------------
 ------------- END HOME ----------------
 ---------------------------------------*/
