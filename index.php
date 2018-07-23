@@ -16,14 +16,14 @@
 
         <div class="container pb-5">
             <div class="row justify-content-center home-p-t">
-              <div class="col-xl-5">
+              <div class="col-xl-5 col-lg-5 col-md-7">
                 <div class="card b-n">
                     <div class="card-top home-card">
                         <div class="row">
-                            <div class="col-xl-8">
+                            <div class="col-xl-8 col-lg-8 col-md-8 col-8">
                                 <div class="home-font">Private Horoscope</div>
                             </div>
-                            <div class="col-xl-4">
+                            <div class="col-xl-4 col-lg-4 col-md-4 col-4">
                                 <div class="home-overlay-image">
                                    <img src="assets/images/pay/pp.jpg" class="home-image-full">
                                 </div>
