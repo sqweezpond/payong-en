@@ -11,15 +11,15 @@
     <?php include_once('inc/navbar.php'); ?>
   <!-- END NAVBAR -->
 
-    <div class="wrapper">
+    <div class="wrapper home-bg">
        <!-- CONTENT -->
 
         <div class="container pb-5">
+            <div class="row">
+              <div class="col-12">
 
-
-
-
-
+              </div>
+            </div>
 
 
 

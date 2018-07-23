@@ -89,7 +89,7 @@ body {
     position: relative;
     width: 100%;
     overflow: hidden;
-    height: 119px;
+    height: 136px;
 }
 .nav-image-full{
     position: absolute;
@@ -109,9 +109,6 @@ body {
 .nav-p-t{
     padding-top: 30px;
 }
-.nav-m-t{
-    margin-top: 20px;
-}
 .nav-p-t2{
     padding-top: 30px;
 }
@@ -121,6 +118,18 @@ body {
     width: 50px;
     height: 50px;
     font-size: 30px;
+}
+.nav-padding-1{
+    padding-left: 300px;
+    padding-right: 300px;
+}
+.nav-position-a{
+    position: absolute;
+    margin-left: -12px;
+}
+.nav-position-r{
+    position: relative;
+    margin-top: 65px;
 }
 /*----------- END NAVBAR 1 --------------*/
 
@@ -141,7 +150,16 @@ body {
 /*-----------------------------------
 -------------- HOME -----------------
 -------------------------------------*/
-
+.home-bg{
+    background-image: url(../../assets/images/logo/bg.jpg);
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: #30777b;
+    background-blend-mode: multiply;
+}
 /*-------------------------------------
 ------------- END HOME ----------------
 ---------------------------------------*/
@@ -150,7 +168,18 @@ body {
 
 @media(max-width: 1366px){
   /*----------- NAVBAR (1366)------------------*/
-
+  .nav-padding-1 {
+      padding-left: 40px;
+      padding-right: 40px;
+  }
+  .nav-position-r {
+      position: relative;
+      margin-top: 65px;
+  }
+  .nav-position-a {
+      position: absolute;
+      margin-left: -13px;
+  }
   /*----------END NAVBAR (1366)------------*/
 
 
@@ -179,6 +208,14 @@ body {
       position: absolute;
       margin-left: -37px;
   }
+  .nav-position-a {
+      position: absolute;
+      margin-left: -5px;
+  }
+  .nav-position-r {
+      position: relative;
+      margin-top: 27px;
+  }
   /*----------- END NAVBAR (1024) ------------------*/
 
 
@@ -194,8 +231,6 @@ body {
   /*-------------------------------------
   ----------- END HOME 1024 ------------
   ---------------------------------------*/
-
-
 }
 
 
@@ -229,29 +264,41 @@ body {
       position: relative;
       width: 100%;
       overflow: hidden;
-      height: 59px;
+      height: 73px;
   }
   .nav-p-t2 {
       padding-top: 20px;
   }
   .nav-bg2{
-      background-color: #094979;
+      background-color: #054372;
       padding: 10px;
-      margin-top: 20px;
+      margin-top: 34px;
   }
   .nav-m-t {
       margin-top: 5px;
   }
   .nav-image-full {
-    position: absolute;
-    display: block;
-    width: 100%;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    position: absolute;
-    margin-left: -31px;
-}
+      position: absolute;
+      display: block;
+      width: 100%;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      position: absolute;
+      margin-left: -31px;
+  }
+  .nav-position-r {
+      position: relative;
+      margin-top: 5px;
+  }
+  .nav-hamburger {
+      color: white;
+      border: 2px solid white;
+      background-color: inherit;
+      width: 40px;
+      height: 40px;
+      font-size: 16px;
+  }
   /*----------- END NAVBAR (768) ------------*/
 
 
@@ -312,18 +359,11 @@ body {
       position: relative;
       width: 100%;
       overflow: hidden;
-      height: 55px;
+      height: 48px;
   }
   .nav-p-lr{
       padding-left: 0px;
       padding-right: 0px;
-  }
-  .nav-hamburger {
-      color: black;
-      background: white;
-      width: 50px;
-      height: 50px;
-      font-size: 25px;
   }
   .nav-bg {
       background-image: url(../../assets/images/logo/Nav Payong.png);
@@ -342,6 +382,23 @@ body {
       transform: translate(-50%, -50%);
       position: absolute;
       margin-left: -15px;
+  }
+  .nav-padding-1 {
+      padding-left: 20px;
+      padding-right: 20px;
+  }
+  .nav-position-a {
+      position: absolute;
+      margin-left: -4px;
+  }
+  .nav-position-r {
+      position: relative;
+      margin-top: -3px;
+  }
+  .nav-bg2 {
+      background-color: #054372;
+      padding: 10px;
+      margin-top: 29px;
   }
   /*----------- END NAVBAR (414) ---------------*/
 
@@ -372,7 +429,7 @@ body {
       color: #333333;
   }
   .nav-font5 {
-      font-size: 14px;
+      font-size: 13px;
       color: white;
       font-family: "kanitlight";
       transition: all 0.3s;
@@ -383,14 +440,15 @@ body {
       position: relative;
       width: 100%;
       overflow: hidden;
-      height: 37px;
+      height: 44px;
   }
   .nav-hamburger {
-      color: black;
-      background: white;
+      color: white;
+      border: 2px solid white;
+      background-color: inherit;
       width: 40px;
       height: 40px;
-      font-size: 18px;
+      font-size: 16px;
   }
   .nav-bg {
       background-image: url(../../assets/images/logo/Nav Payong.png);
@@ -404,6 +462,18 @@ body {
   }
   .nav-p-t2 {
       padding-top: 10px;
+  }
+  .nav-padding-1 {
+      padding-left: 20px;
+      padding-right: 20px;
+  }
+  .nav-position-a {
+      position: absolute;
+      margin-left: -3px;
+  }
+  .nav-position-r {
+      position: relative;
+      margin-top: 2px;
   }
   /*----------- END NAVBAR (375) ------------*/
   .footer-font {
@@ -455,7 +525,7 @@ body {
       position: relative;
       width: 100%;
       overflow: hidden;
-      height: 32px;
+      height: 36px;
   }
   .nav-bg {
       background-image: url(../../assets/images/logo/Nav Payong.png);
@@ -482,6 +552,18 @@ body {
       transform: translate(-50%, -50%);
       position: absolute;
       margin-left: -9px;
+  }
+  .nav-position-a {
+      position: absolute;
+      margin-left: -5px;
+  }
+  .nav-hamburger {
+      color: white;
+      border: 2px solid white;
+      background-color: inherit;
+      width: 40px;
+      height: 40px;
+      font-size: 15px;
   }
   /*----------- END NAVBAR (320) ------------*/
 
