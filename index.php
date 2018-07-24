@@ -18,6 +18,7 @@
             <div class="row justify-content-center home-p-t">
               <div class="col-xl-5 col-lg-5 col-md-7">
                 <div class="card b-n">
+                  <a href="pay.php" class="home-font">
                     <div class="card-top home-card">
                         <div class="row">
                             <div class="col-xl-8 col-lg-8 col-md-8 col-8">
@@ -35,6 +36,7 @@
                                  <img src="assets/images/logo/write.jpg" class="home-image-full2">
                             </div>
                     </div>
+                  </a>
                 </div>
               </div>
             </div>

@@ -11,7 +11,7 @@
     <?php include_once('inc/navbar.php'); ?>
   <!-- END NAVBAR -->
 
-    <div class="wrapper">
+    <div class="wrapper fadeIn animated">
        <!-- CONTENT -->
 
         <div class="container pb-5">

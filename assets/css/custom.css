@@ -171,6 +171,17 @@ body {
     font-size: 25px;
     color: white;
     font-family: "kanitlight";
+    transition: all 0.3s;
+}
+.home-font:hover{
+    font-size: 25px;
+    color: white;
+    font-family: "kanitlight";
+    text-decoration: none;
+    -ms-transform: scale(1.05); /* IE 9 */
+   -webkit-transform: scale(1.05); /* Safari 3-8 */
+   transform: scale(1.05);
+   transition: all 0.3;
 }
 .home-overlay-image{
     position: relative;
