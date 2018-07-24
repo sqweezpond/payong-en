@@ -9,7 +9,7 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
 
     <!-- ICON -->
-    <link rel="shortcut icon" href="assets/images/logo/logo-payong.jpg" type="image/x-icon" />
+    <link rel="shortcut icon" href="assets/images/logo/logo-payong-en.jpg" type="image/x-icon" />
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" type="text/css" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
@@ -19,11 +19,6 @@
     <link rel="stylesheet" type="text/css" href="node_modules/font-awesome/css/font-awesome.min.css">
 
     <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
-
-    <!-- Carousel -->
-    <link rel="stylesheet" href="assets/vandor/OwlCarousel/dist/assets/owl.carousel.min.css">
-
-    <link rel="stylesheet" href="assets/vandor/OwlCarousel/dist/assets/owl.theme.default.min.css">
 
 
     <!-- CUSTOM CSS -->

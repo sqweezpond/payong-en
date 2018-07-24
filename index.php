@@ -11,7 +11,7 @@
     <?php include_once('inc/navbar.php'); ?>
   <!-- END NAVBAR -->
 
-    <div class="wrapper home-bg">
+    <div class="wrapper home-bg fadeIn animated">
        <!-- CONTENT -->
 
         <div class="container pb-5">
@@ -40,7 +40,9 @@
             </div>
             <div class="row mt-5">
               <div class="col-12 text-center">
-                <button type="button" class="btn home-btn">About Payong</button>
+                <a href="about-en.php">
+                  <button type="button" class="btn home-btn">About Payong</button>
+                </a>
               </div>
             </div>
 

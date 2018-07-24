@@ -237,6 +237,27 @@ body {
 ------------- END HOME ----------------
 ---------------------------------------*/
 
+/*-------------------------------------
+--------------- ABOUT ----------------
+---------------------------------------*/
+.about-overlay-image{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    height: 735px;
+}
+.about-image-full{
+    position: absolute;
+    display: block;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+/*-------------------------------------
+------------- END ABOUT ----------------
+---------------------------------------*/
 
 
 @media(max-width: 1366px){

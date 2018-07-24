@@ -35,7 +35,7 @@
 							<div class="collapse navbar-collapse nav-bg2" id="navbarNavDropdown">
 									<ul class="navbar-nav">
 											<li class="nav-item active">
-													<a class="nav-link nav-font4" href="#">HOME</a>
+													<a class="nav-link nav-font4" href="index.php">HOME</a>
 											</li>
 									</ul>
 							</div>
