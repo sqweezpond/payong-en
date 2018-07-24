@@ -259,6 +259,175 @@ body {
 ------------- END ABOUT ----------------
 ---------------------------------------*/
 
+/*-------------------------------------
+------------- PAY ----------------
+---------------------------------------*/
+.pay-font{
+    font-size: 30px;
+    color: #333333;
+}
+.pay-font2{
+    font-size: 18px;
+    color: #333333;
+    font-family: "kanitlight";
+}
+.pay-font3{
+    font-size: 22px;
+    color: #333333;
+}
+.pay-font4{
+    font-size: 15px;
+    color: #333333;
+    font-family: "kanitlight";
+}
+.pay-font5{
+    font-size: 18px;
+    color: #333333;
+    font-family: "kanitlight";
+    margin-top: 9px;
+    margin-left: 43px;
+    position: absolute;
+}
+.pay-font6{
+    font-size: 18px;
+    color: #333333;
+    font-family: "kanitlight";
+    margin-top: 9px;
+    margin-left: 54px;
+    position: absolute;
+}
+.pay-font7{
+    font-size: 14px;
+    color: #aeafae;
+    font-family: "kanitlight";
+}
+.pay-m-t{
+    margin-top: 30px;
+}
+.pay-form{
+    width: 100%;
+    height: 45px;
+    border-radius: 0px;
+    border: 1px solid #1e3d70;
+    font-size: 20px;
+    font-family: "kanitlight";
+}
+.pay-ok{
+    font-size: 25px;
+    color: #76c764;
+    padding-top:51px;
+}
+.pay-ok2{
+    font-size: 25px;
+    color: #76c764;
+    padding-top:73px;
+}
+.pay-selected {
+    border: 1px solid #1e3d70;
+    border-radius: 0px;
+    background: #fff url(../../assets/images/logo/down.png) no-repeat right 15px center;
+    background-size: 20px;
+    -webkit-appearance: none!important;
+    padding: 5px 25px!important;
+    width: 100%;
+    height: 45px;
+    font-family: "kanitlight";
+    font-size: 20px;
+}
+.pay-selected2{
+    border: 1px solid #1e3d70;
+    border-radius: 0px;
+    background: #fff url(../../assets/images/logo/down.png) no-repeat right 15px center;
+    background-size: 15px;
+    -webkit-appearance: none!important;
+    padding: 5px 25px!important;
+    width: 100%;
+    height: 45px;
+    font-size: 15px;
+    font-family: "kanitlight";
+}
+.pay-select{
+    display: block;
+    position: relative;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.pay-select input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 8px;
+    background-color: #fff;
+    border-radius: 50%;
+    border:2px solid #1e3d70;
+}
+.pay-select input:checked ~ .checkmark {
+    background-color: #fff;
+    border :2px solid #1e3d70;
+}
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+.pay-select input:checked ~ .checkmark:after {
+    display: block;
+}
+.pay-select .checkmark:after {
+    top: 3px;
+    left: 3px;
+    padding: 5px;
+    border-radius: 50%;
+    background-color: #1e3d70;
+}
+.pay-overlay-image{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    height: 70px;
+}
+.pay-image-full{
+    position: absolute;
+    display: block;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+.pay-btn{
+    background-color: #1e3d70;
+    color: white;
+    width: 170px;
+    height: 50px;
+    font-size: 20px;
+    font-family: "kanitlight";
+    margin-top: 10px;
+    transition: all 0.3s;
+}
+.pay-btn:hover{
+    background-color: #fff;
+    border: 2px solid #1e3d70;
+    color: #1e3d70;
+    width: 170px;
+    height: 50px;
+    font-size: 20px;
+    font-family: "kanitlight";
+    margin-top: 10px;
+    transition: all 0.3s;
+}
+/*-------------------------------------
+------------- END PAY ----------------
+---------------------------------------*/
+
 
 @media(max-width: 1366px){
   /*----------- NAVBAR (1366)------------------*/
@@ -442,6 +611,43 @@ body {
   ---------- END HOME 768 --------------
   ---------------------------------------*/
 
+  /*-------------------------------------
+  ------------- PAY 768 ----------------
+  ---------------------------------------*/
+  .pay-font3 {
+      font-size: 19px;
+      color: #333333;
+  }
+  .pay-font7 {
+      font-size: 13px;
+      color: #aeafae;
+      font-family: "kanitlight";
+  }
+  .pay-ok {
+      font-size: 25px;
+      color: #76c764;
+      padding-top: 46px;
+  }
+  .pay-ok2 {
+      font-size: 25px;
+      color: #76c764;
+      padding-top: 67px;
+  }
+  .pay-selected2 {
+      border: 1px solid #1e3d70;
+      border-radius: 0px;
+      background: #fff url(../../assets/images/logo/down.png) no-repeat right 6px center;
+      background-size: 15px;
+      -webkit-appearance: none!important;
+      padding: 5px 13px!important;
+      width: 100%;
+      height: 45px;
+      font-size: 15px;
+      font-family: "kanitlight";
+  }
+  /*-------------------------------------
+  -------------END PAY 768 ----------------
+  ---------------------------------------*/
 
 }
 
@@ -574,6 +780,88 @@ body {
   }
   /*------------------------------------
   ---------- END HOME 414 --------------
+  ---------------------------------------*/
+  /*------------------------------------
+  ---------- PAY 414 --------------
+  ---------------------------------------*/
+  .pay-font{
+      font-size: 22px;
+      color: #333333;
+  }
+  .pay-font2 {
+      font-size: 14px;
+      color: #333333;
+      font-family: "kanitlight";
+  }
+  .pay-font3 {
+      font-size: 16px;
+      color: #333333;
+  }
+  .pay-font4 {
+      font-size: 13px;
+      color: #333333;
+      font-family: "kanitlight";
+  }
+  .pay-font5 {
+      font-size: 15px;
+      color: #333333;
+      font-family: "kanitlight";
+      margin-top: -2px;
+      margin-left: 34px;
+      position: absolute;
+  }
+  .pay-font6 {
+      font-size: 15px;
+      color: #333333;
+      font-family: "kanitlight";
+      margin-top: -2px;
+      margin-left: 34px;
+      position: absolute;
+  }
+  .pay-font7 {
+      font-size: 12px;
+      color: #aeafae;
+      font-family: "kanitlight";
+      margin-top: 25px;
+  }
+  .pay-ok {
+      font-size: 25px;
+      color: #76c764;
+      padding-top: 42px;
+  }
+  .pay-ok2 {
+      font-size: 25px;
+      color: #76c764;
+      padding-top: 58px;
+  }
+  .pay-selected {
+      border: 1px solid #1e3d70;
+      border-radius: 0px;
+      background: #fff url(../../assets/images/logo/down.png) no-repeat right 15px center;
+      background-size: 20px;
+      -webkit-appearance: none!important;
+      padding: 5px 10px!important;
+      width: 100%;
+      height: 45px;
+      font-family: "kanitlight";
+      font-size: 15px;
+  }
+  .pay-overlay-image {
+      position: relative;
+      width: 100%;
+      overflow: hidden;
+      height: 105px;
+  }
+  .pay-form {
+      width: 100%;
+      height: 45px;
+      border-radius: 0px;
+      border: 1px solid #1e3d70;
+      font-size: 15px;
+      font-family: "kanitlight";
+  }
+  /*------------------------------------
+  ---------- END PAY 414 --------------
   ---------------------------------------*/
 }
 
@@ -742,7 +1030,7 @@ body {
   /*--------- END FOOTER (320) ---------*/
 
   /*------------------------------------
-  ----------  HOME 320 --------------
+  ----------  HOME 320 -----------------
   ---------------------------------------*/
   .home-font {
       font-size: 20px;
@@ -757,5 +1045,63 @@ body {
   }
   /*------------------------------------
   ---------- END HOME 320 --------------
+  ---------------------------------------*/
+
+  /*------------------------------------
+  ------------ PAY 320 -----------------
+  ---------------------------------------*/
+  .pay-font {
+      font-size: 18px;
+      color: #333333;
+  }
+  .pay-font2 {
+      font-size: 11px;
+      color: #333333;
+      font-family: "kanitlight";
+  }
+  .pay-font3 {
+      font-size: 14px;
+      color: #333333;
+  }
+  .pay-font7 {
+      font-size: 11px;
+      color: #aeafae;
+      font-family: "kanitlight";
+      margin-top: 25px;
+  }
+  .pay-form {
+      width: 100%;
+      height: 45px;
+      border-radius: 0px;
+      border: 1px solid #1e3d70;
+      font-size: 14px;
+      font-family: "kanitlight";
+  }
+  .pay-selected {
+      border: 1px solid #1e3d70;
+      border-radius: 0px;
+      background: #fff url(../../assets/images/logo/down.png) no-repeat right 15px center;
+      background-size: 20px;
+      -webkit-appearance: none!important;
+      padding: 5px 10px!important;
+      width: 100%;
+      height: 45px;
+      font-family: "kanitlight";
+      font-size: 14px;
+  }
+  .pay-selected2 {
+      border: 1px solid #1e3d70;
+      border-radius: 0px;
+      background: #fff url(../../assets/images/logo/down.png) no-repeat right 6px center;
+      background-size: 15px;
+      -webkit-appearance: none!important;
+      padding: 5px 13px!important;
+      width: 100%;
+      height: 45px;
+      font-size: 14px;
+      font-family: "kanitlight";
+  }
+  /*------------------------------------
+  ----------- END PAY 320 ---------------
   ---------------------------------------*/
 }
