@@ -1,40 +1,7 @@
-6
-@font-face {
-    font-family: 'kanitbold';
-    src: url('../fonts/kanit/kanit-bold-webfont.woff2') format('woff2'),
-         url('../fonts/kanit/kanit-bold-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'kanitlight';
-    src: url('../fonts/kanit/kanit-light-webfont.woff2') format('woff2'),
-         url('../fonts/kanit/kanit-light-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'kanitmedium';
-    src: url('../fonts/kanit/kanit-medium-webfont.woff2') format('woff2'),
-         url('../fonts/kanit/kanit-medium-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'kanitregular';
-    src: url('../fonts/kanit/kanit-regular-webfont.woff2') format('woff2'),
-         url('../fonts/kanit/kanit-regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-
 
 body {
-    font-family:'kanitregular';
+  font-family: 'Roboto';
+  font-weight: 400;
 }
 
 .wrapper {
@@ -48,6 +15,9 @@ body {
     font-size: 30px;
     color: #333333;
     transition: all 0.3s;
+    font-weight: 400;
+    letter-spacing: 1px;
+    font-weight: 500;
 }
 .nav-font1:hover{
     font-size: 30px;
@@ -68,22 +38,25 @@ body {
 .nav-font4{
     font-size: 22px;
     color: white;
-    font-family: "kanitlight";
     transition: all 0.3s;
+    letter-spacing: 2px;
+    font-weight: 300;
 }
 .nav-font4:hover{
     font-size: 22px;
     color: #85C1E9;
-    font-family: "kanitlight";
+    letter-spacing: 2px;
     transition: all 0.3s;
+    font-weight: 300;
 }
 .nav-font5{
     font-size: 22px;
     color: white;
-    font-family: "kanitlight";
     transition: all 0.3s;
     padding-top:25px;
     padding-left: 7px;
+    letter-spacing: 2px;
+    font-weight: 300;
 }
 .nav-overlay-image{
     position: relative;
@@ -110,7 +83,7 @@ body {
     padding-top: 30px;
 }
 .nav-p-t2{
-    padding-top: 30px;
+    padding-top: 60px;
 }
 .nav-hamburger{
     color: black;
@@ -129,7 +102,7 @@ body {
 }
 .nav-position-r{
     position: relative;
-    margin-top: 65px;
+    margin-top: 35px;
 }
 /*----------- END NAVBAR 1 --------------*/
 
@@ -138,7 +111,6 @@ body {
 .footer-font{
     font-size: 15px;
     color: #fff;
-    font-family: "kanitlight";
 }
 .footer-bg{
     background-color: #1b81ad;
@@ -170,12 +142,13 @@ body {
 .home-font{
     font-size: 25px;
     color: white;
-    font-family: "kanitlight";s
+    letter-spacing: 2px;
+    font-weight: 300;
 }
 .home-font:hover{
     font-size: 25px;
     color: white;
-    font-family: "kanitlight";
+    letter-spacing: 2px;
     text-decoration: none;
 }
 .home-overlay-image{
@@ -240,8 +213,9 @@ body {
     border: 5px ;
     transition: all 0.3s;
     box-shadow: 0px 0px 0px 8px rgba(0,0,0,0.3);
-    font-family: "kanitlight";
-    font-size: 30px;
+    font-size: 35px;
+    letter-spacing: 2px;
+    font-weight: 400;
 }
 .home-btn:hover{
     background-color: #1c3c6f;
@@ -252,8 +226,9 @@ body {
     border: 5px;
     transition: all 0.3s;
     box-shadow: 0px 0px 0px 8px rgba(0,0,0,0.3);
-    font-family: "kanitlight";
-    font-size: 30px;
+    font-size: 35px;
+    letter-spacing: 2px;
+    font-weight: 400;
 }
 /*-------------------------------------
 ------------- END HOME ----------------
@@ -287,11 +262,11 @@ body {
 .pay-font{
     font-size: 30px;
     color: #333333;
+    letter-spacing: 1px;
 }
 .pay-font2{
     font-size: 18px;
     color: #333333;
-    font-family: "kanitlight";
 }
 .pay-font3{
     font-size: 22px;
@@ -300,12 +275,10 @@ body {
 .pay-font4{
     font-size: 15px;
     color: #333333;
-    font-family: "kanitlight";
 }
 .pay-font5{
     font-size: 18px;
     color: #333333;
-    font-family: "kanitlight";
     margin-top: 9px;
     margin-left: 43px;
     position: absolute;
@@ -313,7 +286,6 @@ body {
 .pay-font6{
     font-size: 18px;
     color: #333333;
-    font-family: "kanitlight";
     margin-top: 9px;
     margin-left: 54px;
     position: absolute;
@@ -321,7 +293,6 @@ body {
 .pay-font7{
     font-size: 14px;
     color: #aeafae;
-    font-family: "kanitlight";
 }
 .pay-m-t{
     margin-top: 30px;
@@ -332,7 +303,7 @@ body {
     border-radius: 0px;
     border: 1px solid #1e3d70;
     font-size: 20px;
-    font-family: "kanitlight";
+    font-weight: 300;
 }
 .pay-ok{
     font-size: 25px;
@@ -350,11 +321,11 @@ body {
     background: #fff url(../../assets/images/logo/down.png) no-repeat right 15px center;
     background-size: 20px;
     -webkit-appearance: none!important;
-    padding: 5px 25px!important;
+    padding: 5px 12px!important;
     width: 100%;
     height: 45px;
-    font-family: "kanitlight";
     font-size: 20px;
+    font-weight: 300;
 }
 .pay-selected2{
     border: 1px solid #1e3d70;
@@ -362,11 +333,11 @@ body {
     background: #fff url(../../assets/images/logo/down.png) no-repeat right 15px center;
     background-size: 15px;
     -webkit-appearance: none!important;
-    padding: 5px 25px!important;
+    padding: 5px 12px!important;
     width: 100%;
     height: 45px;
     font-size: 15px;
-    font-family: "kanitlight";
+    font-weight: 300;
 }
 .pay-select{
     display: block;
@@ -430,10 +401,11 @@ body {
     color: white;
     width: 170px;
     height: 50px;
-    font-size: 20px;
-    font-family: "kanitlight";
+    font-size: 18px;
     margin-top: 10px;
     transition: all 0.3s;
+    font-weight: 300;
+    letter-spacing: 1px;
 }
 .pay-btn:hover{
     background-color: #fff;
@@ -441,10 +413,11 @@ body {
     color: #1e3d70;
     width: 170px;
     height: 50px;
-    font-size: 20px;
-    font-family: "kanitlight";
+    font-size: 18px;
     margin-top: 10px;
     transition: all 0.3s;
+    font-weight: 300;
+    letter-spacing: 1px;
 }
 /*-------------------------------------
 ------------- END PAY ----------------
@@ -499,7 +472,10 @@ body {
   }
   .nav-position-r {
       position: relative;
-      margin-top: 27px;
+      margin-top: 25px;
+  }
+  .nav-p-t2 {
+      padding-top: 30px;
   }
   /*----------- END NAVBAR (1024) ------------------*/
 
@@ -508,10 +484,28 @@ body {
 
   /*----------- END FOOTER (1024) -------------*/
 
+  /*------------------------------------
+  ----------- ABOUT 1024 ----------------
+  ---------------------------------------*/
+  .about-overlay-image {
+      position: relative;
+      width: 100%;
+      overflow: hidden;
+      height: 626px;
+  }
+  /*------------------------------------
+  ---------- END ABOUT 1024 --------------
+  ---------------------------------------*/
 
   /*-------------------------------------
   ------------- HOME 1024 ----------------
   ---------------------------------------*/
+  .home-font {
+      font-size: 23px;
+      color: white;
+      letter-spacing: 2px;
+      font-weight: 300;
+  }
   .home-overlay-image2 {
       position: relative;
       width: 100%;
@@ -531,6 +525,7 @@ body {
       font-size: 22px;
       color: #333333;
       transition: all 0.3s;
+      font-weight: 500;
   }
   .nav-font1:hover {
       font-size: 22px;
@@ -545,9 +540,8 @@ body {
   .nav-font5 {
       font-size: 22px;
       color: white;
-      font-family: "kanitlight";
       transition: all 0.3s;
-      padding-top: 0px;
+      padding-top: 8px;
       padding-left: 0px;
   }
   .nav-overlay-image {
@@ -563,12 +557,13 @@ body {
       background-color: #054372;
       padding: 10px;
       margin-top: 34px;
+      transition: all 0.5s;
   }
   .nav-m-t {
       margin-top: 5px;
   }
   .nav-image-full {
-      position: absolute;
+      position: absolut©e;
       display: block;
       width: 100%;
       top: 50%;
@@ -614,8 +609,9 @@ body {
       border: 5px;
       transition: all 0.3s;
       box-shadow: 0px 0px 0px 8px rgba(0,0,0,0.3);
-      font-family: "kanitlight";
-      font-size: 22px;
+      font-size: 25px;
+      letter-spacing: 2px;
+      font-weight: 400;
   }
   .home-btn:hover {
       background-color: #1c3c6f;
@@ -626,11 +622,31 @@ body {
       border: 5px;
       transition: all 0.3s;
       box-shadow: 0px 0px 0px 8px rgba(0,0,0,0.3);
-      font-family: "kanitlight";
-      font-size: 22px;
+      font-size: 25px;
+      letter-spacing: 2px;
+      font-weight: 400;
+  }
+  .home-overlay-image {
+      position: relative;
+      width: 100%;
+      overflow: hidden;
+      height: 34px;
   }
   /*------------------------------------
   ---------- END HOME 768 --------------
+  ---------------------------------------*/
+
+  /*------------------------------------
+  ----------- ABOUT 768 ----------------
+  ---------------------------------------*/
+  .about-overlay-image {
+      position: relative;
+      width: 100%;
+      overflow: hidden;
+      height: 459px;
+  }
+  /*------------------------------------
+  ---------- END ABOUT 768 --------------
   ---------------------------------------*/
 
   /*-------------------------------------
@@ -643,7 +659,6 @@ body {
   .pay-font7 {
       font-size: 13px;
       color: #aeafae;
-      font-family: "kanitlight";
   }
   .pay-ok {
       font-size: 25px;
@@ -665,7 +680,6 @@ body {
       width: 100%;
       height: 45px;
       font-size: 15px;
-      font-family: "kanitlight";
   }
   /*-------------------------------------
   -------------END PAY 768 ----------------
@@ -680,12 +694,14 @@ body {
       font-size: 16px;
       color: #333333;
       transition: all 0.3s;
+      font-weight: 500;
   }
   .nav-font1:hover{
       font-size: 16px;
       color: #3498DB;
       transition: all 0.3s;
       text-decoration: none;
+      font-weight: 500;
   }
   .nav-font2 {
       font-size: 20px;
@@ -700,16 +716,16 @@ body {
   .nav-font4 {
       font-size: 16px;
       color: white;
-      font-family: "kanitlight";
       transition: all 0.3s;
   }
-  .nav-font5{
-      font-size: 15px;
+  .nav-font5 {
+      font-size: 14px;
       color: white;
-      font-family: "kanitlight";
       transition: all 0.3s;
-      padding-top: 0px;
+      padding-top: 43px;
       padding-left: 0px;
+      letter-spacing: 2px;
+      font-weight: 300;
   }
   .nav-overlay-image {
       position: relative;
@@ -727,7 +743,7 @@ body {
       height: 172px;
   }
   .nav-p-t2 {
-      padding-top: 22px;
+      padding-top: 10px;
   }
   .nav-image-full {
       position: absolute;
@@ -749,12 +765,13 @@ body {
   }
   .nav-position-r {
       position: relative;
-      margin-top: -3px;
+      margin-top: 8px;
   }
   .nav-bg2 {
       background-color: #054372;
       padding: 10px;
-      margin-top: 29px;
+      margin-top: -35px;
+      transition: all 0.5s;
   }
   /*----------- END NAVBAR (414) ---------------*/
 
@@ -762,9 +779,21 @@ body {
   .footer-font {
       font-size: 13px;
       color: #fff;
-      font-family: "kanitlight";
   }
   /*----------- END FOOTER (414) -------------*/
+
+  /*------------------------------------
+  ----------- ABOUT 414 ----------------
+  ---------------------------------------*/
+  .about-overlay-image {
+      position: relative;
+      width: 100%;
+      overflow: hidden;
+      height: 257px;
+  }
+  /*------------------------------------
+  ---------- END ABOUT 414 --------------
+  ---------------------------------------*/
 
 
   /*------------------------------------
@@ -776,6 +805,12 @@ body {
       overflow: hidden;
       height: 364px;
   }
+  .home-overlay-image {
+      position: relative;
+      width: 100%;
+      overflow: hidden;
+      height: 34px;
+  }
   .home-btn {
       background-color: #031f25;
       width: 100%;
@@ -785,8 +820,9 @@ body {
       border: 5px;
       transition: all 0.3s;
       box-shadow: 0px 0px 0px 8px rgba(0,0,0,0.3);
-      font-family: "kanitlight";
-      font-size: 20px;
+      font-size: 22px;
+      letter-spacing: 2px;
+      font-weight: 400;
   }
   .home-btn:hover {
       background-color: #1c3c6f;
@@ -797,8 +833,9 @@ body {
       border: 5px;
       transition: all 0.3s;
       box-shadow: 0px 0px 0px 8px rgba(0,0,0,0.3);
-      font-family: "kanitlight";
-      font-size: 20px;
+      font-size: 22px;
+      letter-spacing: 2px;
+      font-weight: 400;
   }
   /*------------------------------------
   ---------- END HOME 414 --------------
@@ -813,7 +850,6 @@ body {
   .pay-font2 {
       font-size: 14px;
       color: #333333;
-      font-family: "kanitlight";
   }
   .pay-font3 {
       font-size: 16px;
@@ -822,12 +858,10 @@ body {
   .pay-font4 {
       font-size: 13px;
       color: #333333;
-      font-family: "kanitlight";
   }
   .pay-font5 {
       font-size: 15px;
       color: #333333;
-      font-family: "kanitlight";
       margin-top: -2px;
       margin-left: 34px;
       position: absolute;
@@ -835,7 +869,6 @@ body {
   .pay-font6 {
       font-size: 15px;
       color: #333333;
-      font-family: "kanitlight";
       margin-top: -2px;
       margin-left: 34px;
       position: absolute;
@@ -843,7 +876,6 @@ body {
   .pay-font7 {
       font-size: 12px;
       color: #aeafae;
-      font-family: "kanitlight";
       margin-top: 25px;
   }
   .pay-ok {
@@ -865,7 +897,6 @@ body {
       padding: 5px 10px!important;
       width: 100%;
       height: 45px;
-      font-family: "kanitlight";
       font-size: 15px;
   }
   .pay-overlay-image {
@@ -880,7 +911,6 @@ body {
       border-radius: 0px;
       border: 1px solid #1e3d70;
       font-size: 15px;
-      font-family: "kanitlight";
   }
   /*------------------------------------
   ---------- END PAY 414 --------------
@@ -897,10 +927,11 @@ body {
   .nav-font5 {
       font-size: 13px;
       color: white;
-      font-family: "kanitlight";
       transition: all 0.3s;
-      padding-top: 0px;
+      padding-top: 30px;
       padding-left: 0px;
+      letter-spacing: 1.5px;
+      font-weight: 300;
   }
   .nav-overlay-image {
       position: relative;
@@ -924,7 +955,8 @@ body {
   .nav-bg2 {
       background-color: #094979;
       padding: 10px;
-      margin-top: 19px;
+      margin-top: -31px;
+      transition: all 0.5s;
   }
   .nav-p-t2 {
       padding-top: 10px;
@@ -942,22 +974,33 @@ body {
       margin-top: 2px;
   }
   /*----------- END NAVBAR (375) ------------*/
+
+  /*----------- FOOTER (375) ----------------*/
   .footer-font {
       font-size: 12px;
       color: #fff;
-      font-family: "kanitlight";
   }
-  /*----------- FOOTER (375) ----------------*/
-
   /*----------- END FOOTER (375) ------------*/
+
+  /*------------------------------------
+  ----------- ABOUT 375 ----------------
+  ---------------------------------------*/
+  .about-overlay-image {
+      position: relative;
+      width: 100%;
+      overflow: hidden;
+      height: 230px;
+  }
+  /*------------------------------------
+  ---------- END ABOUT 375 --------------
+  ---------------------------------------*/
 
   /*------------------------------------
   -------------  HOME 375 --------------
   ---------------------------------------*/
   .home-font {
-      font-size: 22px;
+      font-size: 21px;
       color: white;
-      font-family: "kanitlight";
   }
   .home-overlay-image2 {
       position: relative;
@@ -965,13 +1008,16 @@ body {
       overflow: hidden;
       height: 326px;
   }
+  .home-overlay-image {
+      position: relative;
+      width: 100%;
+      overflow: hidden;
+      height: 31px;
+  }
   /*------------------------------------
   ---------- END HOME 375 --------------
   ---------------------------------------*/
-
-
 }
-
 
 
 @media (max-width: 320px ){
@@ -980,12 +1026,14 @@ body {
       font-size: 14px;
       color: #333333;
       transition: all 0.3s;
+      font-weight: 500;
   }
   .nav-font1:hover {
       font-size: 14px;
       color: #3498DB;
       transition: all 0.3s;
       text-decoration: none;
+      font-weight: 500;
   }
   .nav-font3 {
       font-size: 11px;
@@ -994,8 +1042,14 @@ body {
   .nav-font4 {
       font-size: 14px;
       color: white;
-      font-family: "kanitlight";
       transition: all 0.3s;
+  }
+  .nav-font5 {
+      font-size: 10px;
+      color: white;
+      transition: all 0.3s;
+      padding-top: 32px;
+      padding-left: 0px;
   }
   .nav-overlay-image {
       position: relative;
@@ -1011,13 +1065,11 @@ body {
   .nav-p-t2 {
       padding-top: 6px;
   }
-  .nav-font5 {
-      font-size: 11px;
-      color: white;
-      font-family: "kanitlight";
-      transition: all 0.3s;
-      padding-top: 0px;
-      padding-left: 0px;
+  .nav-bg2 {
+      background-color: #094979;
+      padding: 10px;
+      margin-top: -28px;
+      transition: all 0.5s;
   }
   .nav-image-full {
       position: absolute;
@@ -1047,23 +1099,66 @@ body {
   .footer-font {
       font-size: 10px;
       color: #fff;
-      font-family: "kanitlight";
   }
   /*--------- END FOOTER (320) ---------*/
+
+  /*------------------------------------
+  ----------- ABOUT 320 ----------------
+  ---------------------------------------*/
+  .about-overlay-image {
+      position: relative;
+      width: 100%;
+      overflow: hidden;
+      height: 194px;
+  }
+  /*------------------------------------
+  ---------- END ABOUT 320 --------------
+  ---------------------------------------*/
 
   /*------------------------------------
   ----------  HOME 320 -----------------
   ---------------------------------------*/
   .home-font {
-      font-size: 20px;
+      font-size: 16px;
       color: white;
-      font-family: "kanitlight";
   }
   .home-overlay-image2 {
       position: relative;
       width: 100%;
       overflow: hidden;
       height: 273px;
+  }
+  .home-overlay-image {
+      position: relative;
+      width: 100%;
+      overflow: hidden;
+      height: 24px;
+  }
+  .home-btn {
+      background-color: #031f25;
+      width: 100%;
+      height: 50px;
+      border-radius: 0px;
+      color: white;
+      border: 5px;
+      transition: all 0.3s;
+      box-shadow: 0px 0px 0px 8px rgba(0,0,0,0.3);
+      font-size: 20px;
+      letter-spacing: 2px;
+      font-weight: 400;
+  }
+  .home-btn:hover {
+      background-color: #1c3c6f;
+      width: 100%;
+      height: 50px;
+      border-radius: 0px;
+      color: white;
+      border: 5px;
+      transition: all 0.3s;
+      box-shadow: 0px 0px 0px 8px rgba(0,0,0,0.3);
+      font-size: 20px;
+      letter-spacing: 2px;
+      font-weight: 400;
   }
   /*------------------------------------
   ---------- END HOME 320 --------------
@@ -1079,7 +1174,6 @@ body {
   .pay-font2 {
       font-size: 11px;
       color: #333333;
-      font-family: "kanitlight";
   }
   .pay-font3 {
       font-size: 14px;
@@ -1088,7 +1182,6 @@ body {
   .pay-font7 {
       font-size: 11px;
       color: #aeafae;
-      font-family: "kanitlight";
       margin-top: 25px;
   }
   .pay-form {
@@ -1097,7 +1190,6 @@ body {
       border-radius: 0px;
       border: 1px solid #1e3d70;
       font-size: 14px;
-      font-family: "kanitlight";
   }
   .pay-selected {
       border: 1px solid #1e3d70;
@@ -1108,7 +1200,6 @@ body {
       padding: 5px 10px!important;
       width: 100%;
       height: 45px;
-      font-family: "kanitlight";
       font-size: 14px;
   }
   .pay-selected2 {
@@ -1121,7 +1212,6 @@ body {
       width: 100%;
       height: 45px;
       font-size: 14px;
-      font-family: "kanitlight";
   }
   /*------------------------------------
   ----------- END PAY 320 ---------------
