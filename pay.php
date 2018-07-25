@@ -158,7 +158,9 @@
               </div>
             </div>
             <div class="col-xl-3 col-lg-3 col-md-3 text-center col-12">
-              <button type="submit" class="btn pay-btn">Submit</button>
+              <a href="pay-confirm.php">
+                <button type="submit" class="btn pay-btn">Submit</button>
+              </a>
             </div>
           </div>
 
