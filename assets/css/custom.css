@@ -40,14 +40,12 @@ body {
     color: white;
     transition: all 0.3s;
     letter-spacing: 2px;
-    font-weight: 300;
 }
 .nav-font4:hover{
     font-size: 22px;
     color: #85C1E9;
     letter-spacing: 2px;
     transition: all 0.3s;
-    font-weight: 300;
 }
 .nav-font5{
     font-size: 22px;
@@ -56,7 +54,6 @@ body {
     padding-top:25px;
     padding-left: 7px;
     letter-spacing: 2px;
-    font-weight: 300;
 }
 .nav-overlay-image{
     position: relative;
@@ -143,13 +140,14 @@ body {
     font-size: 25px;
     color: white;
     letter-spacing: 2px;
-    font-weight: 300;
+    font-weight: 400;
 }
 .home-font:hover{
     font-size: 25px;
     color: white;
     letter-spacing: 2px;
     text-decoration: none;
+    font-weight: 400;
 }
 .home-overlay-image{
     position: relative;
@@ -257,12 +255,13 @@ body {
 ---------------------------------------*/
 
 /*-------------------------------------
-------------- PAY ----------------
+---------------- PAY ----------------
 ---------------------------------------*/
 .pay-font{
     font-size: 30px;
     color: #333333;
     letter-spacing: 1px;
+    font-weight: 500;
 }
 .pay-font2{
     font-size: 18px;
@@ -271,6 +270,7 @@ body {
 .pay-font3{
     font-size: 22px;
     color: #333333;
+    font-weight: 500; 
 }
 .pay-font4{
     font-size: 15px;
