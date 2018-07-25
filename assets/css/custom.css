@@ -170,18 +170,13 @@ body {
 .home-font{
     font-size: 25px;
     color: white;
-    font-family: "kanitlight";
-    transition: all 0.3s;
+    font-family: "kanitlight";s
 }
 .home-font:hover{
     font-size: 25px;
     color: white;
     font-family: "kanitlight";
     text-decoration: none;
-    -ms-transform: scale(1.05); /* IE 9 */
-   -webkit-transform: scale(1.05); /* Safari 3-8 */
-   transform: scale(1.05);
-   transition: all 0.3;
 }
 .home-overlay-image{
     position: relative;
@@ -213,6 +208,22 @@ body {
     transform: translate(-50%, -50%);
     position: absolute;
     transform: scale(1.5);
+    transition: all 0.5s;
+}
+.home-image-full2:hover{
+    position: absolute;
+    display: block;
+    width: 100%;
+    top: 12%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    transform: scale(1.5);
+    -ms-transform: scale(1.7); /* IE 9 */
+    -webkit-transform: scale(1.7); /* Safari 3-8 */
+    transform: scale(1.7);
+    transition: all 0.5s;
+    opacity: 0.9;
 }
 .home-padding{
     padding: 0px;
