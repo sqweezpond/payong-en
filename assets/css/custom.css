@@ -419,6 +419,29 @@ body {
     font-weight: 400;
     letter-spacing: 1px;
 }
+.paycon-btn{
+    background-color: #1e3d70;
+    color: white;
+    width: 200px;
+    height: 55px;
+    font-size: 18px;
+    margin-top: 10px;
+    transition: all 0.3s;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+.paycon-btn:hover{
+    background-color: #fff;
+    border: 2px solid #1e3d70;
+    color: #1e3d70;
+    width: 200px;
+    height: 55px;
+    font-size: 18px;
+    margin-top: 10px;
+    transition: all 0.3s;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
 /*-------------------------------------
 ------------- END PAY ----------------
 ---------------------------------------*/
