@@ -17,10 +17,10 @@
        <div class="container">
          <div class="row">
            <div class="col-lg-12">
-             <div class="row">
-                 <div class="my-4 mx-auto">
-                    <h4 class="pay-con-font-top ">Please review and comfirm information correctly,then click 'Continue to Paypal'</h4>
-                 </div>
+             <div class="my-4 text-center">
+                <h4 class="pay-con-font-top ">Please review and comfirm information correctly,then click 'Continue to Paypal'</h4>
+             </div>
+             <div class="row pay-con-fix-lift-1024">
                  <div class="col-lg-6 col-6">
                     <p class="text-right pay-con-font-top-1">E-mail to receive the document <span class="ml-4">:</span></p>
                  </div>
@@ -63,12 +63,11 @@
                  <div class="col-lg-6 col-6">
                      <p class="text-left pay-con-font-top-1">User</p>
                  </div>
+              </div>
               <div class="col-xl-12  text-lg-right text-center col-12 my-5">
                 <button type="submit" class="btn paycon-btn">Contiule to Paypal</button>
               </div>
-            </div>
            </div>
-
          </div>
 
 
