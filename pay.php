@@ -14,6 +14,7 @@
     <div class="wrapper fadeIn animated">
        <!-- CONTENT -->
 
+
         <div class="container pb-5">
             <div class="col-12 pay-m-t px-0">
                 <div class="pay-font">Private Horoscope</div>
@@ -150,6 +151,7 @@
               </div>
             </div>
 
+        <!-- BUTTON -------------------------------------------------->
           <div class="row">
             <div class="col-xl-6 col-lg-6 col-md-6"></div>
             <div class="col-xl-3 col-lg-3 col-md-3 col-12">
@@ -163,13 +165,7 @@
               </a>
             </div>
           </div>
-
-
-
-
-
-
-
+        <!-- END BUTTON -------------------------------------------------->
 
             <!-- END CONTANER ------>
         </div>
