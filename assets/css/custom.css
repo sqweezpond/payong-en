@@ -203,7 +203,7 @@ body {
     padding-top: 50px;
 }
 .home-btn{
-    background-color: #031f25;
+    background-color: black;
     width: 350px;
     height: 70px;
     border-radius: 0px;
@@ -214,9 +214,10 @@ body {
     font-size: 35px;
     letter-spacing: 2px;
     font-weight: 400;
+    transition: all 0.3s;
 }
 .home-btn:hover{
-    background-color: #1c3c6f;
+    background-color: black;
     width: 350px;
     height: 70px;
     border-radius: 0px;
@@ -227,6 +228,7 @@ body {
     font-size: 35px;
     letter-spacing: 2px;
     font-weight: 400;
+    transition: all 0.3s;
 }
 /*-------------------------------------
 ------------- END HOME ----------------
