@@ -125,14 +125,14 @@
               <div class="form-group col-xl-5 col-lg-5 col-md-5">
                 <label for="" class="pay-font3">Gender</label>
                 <div class="form-row">
-                  <div class="form-inline col-xl-3 col-lg-3 col-md-3 col-4">
+                  <div class="form-inline col-xl-3 col-lg-3 col-md-4 col-3">
                     <label class="pay-select">
                         <input type="radio" name="radio" checked="checked">
                         <span class="checkmark"></span>
                         <span for="" class="pay-font5">Male</span>
                     </label>
                   </div>
-                  <div class="form-inline col-xl-3 col-lg-3 col-md-3 col-4">
+                  <div class="form-inline col-xl-3 col-lg-3 col-md-4 col-3">
                     <label class="pay-select">
                         <input type="radio" name="radio">
                         <span class="checkmark"></span>

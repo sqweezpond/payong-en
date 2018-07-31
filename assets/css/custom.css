@@ -282,14 +282,14 @@ body {
     font-size: 18px;
     color: #333333;
     margin-top: 9px;
-    margin-left: 43px;
+    margin-left: 46px;
     position: absolute;
 }
 .pay-font6{
     font-size: 18px;
     color: #333333;
     margin-top: 9px;
-    margin-left: 54px;
+    margin-left: 55px;
     position: absolute;
 }
 .pay-font7{
@@ -480,6 +480,9 @@ body {
       position: absolute;
       margin-left: -13px;
   }
+  .nav-p-t2 {
+      padding-top: 39px;
+  }
   /*----------END NAVBAR (1366)------------*/
 
 
@@ -552,7 +555,7 @@ body {
       position: relative;
       width: 100%;
       overflow: hidden;
-      height: 351px;
+      height: 315px;
   }
   /*-------------------------------------
   ----------- END HOME 1024 ------------
@@ -589,8 +592,20 @@ body {
       font-size: 20px;
       color: #333333;
   }
+  .nav-font4 {
+      font-size: 18px;
+      color: white;
+      transition: all 0.3s;
+      letter-spacing: 2px;
+  }
+  .nav-font4:hover {
+      font-size: 18px;
+      color: #85C1E9;
+      letter-spacing: 2px;
+      transition: all 0.3s;
+  }
   .nav-font5 {
-      font-size: 22px;
+      font-size: 18px;
       color: white;
       transition: all 0.3s;
       padding-top: 8px;
@@ -608,7 +623,7 @@ body {
   .nav-bg2{
       background-color: #054372;
       padding: 10px;
-      margin-top: 34px;
+      margin-top: 29px;
       transition: all 0.5s;
   }
   .nav-m-t {
@@ -632,9 +647,9 @@ body {
       color: white;
       border: 2px solid white;
       background-color: inherit;
-      width: 40px;
-      height: 40px;
-      font-size: 16px;
+      width: 45px;
+      height: 45px;
+      font-size: 18px;
   }
   /*----------- END NAVBAR (768) ------------*/
 
@@ -654,7 +669,7 @@ body {
   }
   .home-btn {
       background-color: #031f25;
-      width: 300px;
+      width: 375px;
       height: 60px;
       border-radius: 0px;
       color: white;
@@ -667,7 +682,7 @@ body {
   }
   .home-btn:hover {
       background-color: #1c3c6f;
-      width: 300px;
+      width: 375px;
       height: 60px;
       border-radius: 0px;
       color: white;
@@ -708,6 +723,20 @@ body {
       font-size: 19px;
       color: #333333;
   }
+  .pay-font5 {
+      font-size: 18px;
+      color: #333333;s
+      margin-top: 9px;
+      margin-left: 48px;
+      position: absolute;
+  }
+  .pay-font6 {
+      font-size: 18px;
+      color: #333333;
+      margin-top: 9px;
+      margin-left: 59px;
+      position: absolute;
+  }
   .pay-font7 {
       font-size: 13px;
       color: #aeafae;
@@ -721,6 +750,26 @@ body {
       font-size: 25px;
       color: #76c764;
       padding-top: 67px;
+  }
+  .pay-form{
+      width: 100%;
+      height: 45px;
+      border-radius: 0px;
+      border: 1px solid #1e3d70;
+      font-size: 16px;
+      font-weight: 300;
+  }
+  .pay-selected {
+      border: 1px solid #1e3d70;
+      border-radius: 0px;
+      background: #fff url(../../assets/images/logo/down.png) no-repeat right 15px center;
+      background-size: 20px;
+      -webkit-appearance: none!important;
+      padding: 5px 12px!important;
+      width: 100%;
+      height: 45px;
+      font-size: 16px;
+      font-weight: 300;
   }
   .pay-selected2 {
       border: 1px solid #1e3d70;
@@ -783,7 +832,7 @@ body {
       color: #333333;
   }
   .nav-font4 {
-      font-size: 16px;
+      font-size: 14px;
       color: white;
       transition: all 0.3s;
   }
@@ -791,7 +840,7 @@ body {
       font-size: 14px;
       color: white;
       transition: all 0.3s;
-      padding-top: 43px;
+      padding-top: 38px;
       padding-left: 0px;
       letter-spacing: 2px;
       font-weight: 300;
@@ -839,8 +888,11 @@ body {
   .nav-bg2 {
       background-color: #054372;
       padding: 10px;
-      margin-top: -35px;
+      margin-top: -34px;
       transition: all 0.5s;
+  }
+  .nav-p-t {
+      padding-top: 29px;
   }
   /*----------- END NAVBAR (414) ---------------*/
 
@@ -882,7 +934,7 @@ body {
   }
   .home-btn {
       background-color: #031f25;
-      width: 100%;
+      width: 96%;
       height: 50px;
       border-radius: 0px;
       color: white;
@@ -895,7 +947,7 @@ body {
   }
   .home-btn:hover {
       background-color: #1c3c6f;
-      width: 100%;
+      width: 96%;
       height: 50px;
       border-radius: 0px;
       color: white;
@@ -910,7 +962,7 @@ body {
   ---------- END HOME 414 --------------
   ---------------------------------------*/
   /*------------------------------------
-  ---------- PAY 414 --------------
+  -------------- PAY 414 ----------------
   ---------------------------------------*/
   .pay-font{
       font-size: 22px;
@@ -931,15 +983,15 @@ body {
   .pay-font5 {
       font-size: 15px;
       color: #333333;
-      margin-top: -2px;
-      margin-left: 34px;
+      margin-top: -1px;
+      margin-left: 25px;
       position: absolute;
   }
   .pay-font6 {
       font-size: 15px;
       color: #333333;
-      margin-top: -2px;
-      margin-left: 34px;
+      margin-top: -1px;
+      margin-left: 27px;
       position: absolute;
   }
   .pay-font7 {
@@ -968,6 +1020,17 @@ body {
       height: 45px;
       font-size: 15px;
   }
+  .pay-selected2 {
+      border: 1px solid #1e3d70;
+      border-radius: 0px;
+      background: #fff url(../../assets/images/logo/down.png) no-repeat right 6px center;
+      background-size: 15px;
+      -webkit-appearance: none!important;
+      padding: 5px 13px!important;
+      width: 100%;
+      height: 40px;
+      font-size: 15px;
+  }
   .pay-overlay-image {
       position: relative;
       width: 100%;
@@ -994,14 +1057,9 @@ body {
   .pay-con-font-top-1{
     font-size: 10px;
   }
-
-
-
   /*--------------------------------------
   -----------------pay-confirm 414------------
   ---------------------------------------*/
-
-
 }
 
 
@@ -1011,11 +1069,22 @@ body {
       font-size: 13px;
       color: #333333;
   }
+  .nav-font4 {
+      font-size: 12px;
+      color: white;
+      transition: all 0.3s;
+  }
+  .nav-font4:hover {
+      font-size: 12px;
+      color: #85C1E9;
+      letter-spacing: 2px;
+      transition: all 0.3s;
+  }
   .nav-font5 {
       font-size: 13px;
       color: white;
       transition: all 0.3s;
-      padding-top: 30px;
+      padding-top: 34px;
       padding-left: 0px;
       letter-spacing: 1.5px;
       font-weight: 300;
@@ -1059,6 +1128,9 @@ body {
   .nav-position-r {
       position: relative;
       margin-top: 2px;
+  }
+  .nav-p-t {
+      padding-top: 26px;
   }
   /*----------- END NAVBAR (375) ------------*/
 
@@ -1126,16 +1198,11 @@ body {
       font-size: 11px;
       color: #333333;
   }
-  .nav-font4 {
-      font-size: 14px;
-      color: white;
-      transition: all 0.3s;
-  }
   .nav-font5 {
       font-size: 10px;
       color: white;
       transition: all 0.3s;
-      padding-top: 32px;
+      padding-top: 36px;
       padding-left: 0px;
   }
   .nav-overlay-image {
@@ -1150,7 +1217,7 @@ body {
       height: 153px;
   }
   .nav-p-t2 {
-      padding-top: 6px;
+      padding-top: 3px;
   }
   .nav-bg2 {
       background-color: #094979;
@@ -1223,7 +1290,7 @@ body {
   }
   .home-btn {
       background-color: #031f25;
-      width: 100%;
+      width: 94%;
       height: 50px;
       border-radius: 0px;
       color: white;
@@ -1236,7 +1303,7 @@ body {
   }
   .home-btn:hover {
       background-color: #1c3c6f;
-      width: 100%;
+      width: 94%;
       height: 50px;
       border-radius: 0px;
       color: white;
@@ -1297,7 +1364,7 @@ body {
       -webkit-appearance: none!important;
       padding: 5px 13px!important;
       width: 100%;
-      height: 45px;
+      height: 40px;
       font-size: 14px;
   }
   .pay-btn {
@@ -1326,7 +1393,7 @@ body {
   .pay-ok2 {
       font-size: 25px;
       color: #76c764;
-      padding-top: 51px;
+      padding-top: 52px;
   }
   /*------------------------------------
   ----------- END PAY 320 ---------------
