@@ -126,7 +126,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    background-color: #30777b;
+    background-color: #1d7fa8;
     background-blend-mode: multiply;
 }
 .home-card{
@@ -204,28 +204,28 @@ body {
 }
 .home-btn{
     background-color: black;
-    width: 350px;
-    height: 70px;
+    width: 340px;
+    height: 65px;
     border-radius: 0px;
     color: white;
     border: 5px ;
     transition: all 0.3s;
     box-shadow: 0px 0px 0px 8px rgba(0,0,0,0.3);
-    font-size: 35px;
+    font-size: 25px;
     letter-spacing: 2px;
     font-weight: 400;
     transition: all 0.3s;
 }
 .home-btn:hover{
     background-color: black;
-    width: 350px;
-    height: 70px;
+    width: 340px;
+    height: 65px;
     border-radius: 0px;
     color: white;
     border: 5px;
     transition: all 0.3s;
     box-shadow: 0px 0px 0px 8px rgba(0,0,0,0.3);
-    font-size: 35px;
+    font-size: 25px;
     letter-spacing: 2px;
     font-weight: 400;
     transition: all 0.3s;

@@ -143,7 +143,7 @@
               </div>
               <div class="form-group offset-xl-1 offset-lg-1 offset-md-1 col-xl-5 col-lg-5 col-md-5 col-12 text-center text-lg-left text-md-left">
                 <p class="pay-font7">*If you don't know the accurate time of birth,<br>
-                  please insert the approximate hour, withut<br>
+                  please insert the approximate hour, without<br>
                   minute. If you totally don't know the time and<br>
                   not sure about daytime or nighttime, please<br>
                   insert 12:00
