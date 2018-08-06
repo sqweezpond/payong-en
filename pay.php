@@ -61,7 +61,7 @@
               <div class="form-group offset-xl-1 offset-lg-1 offset-md-1 col-xl-5 col-lg-5 col-md-5">
                 <label for="" class="pay-font3">State of Birth</label>
                 <select class="pay-selected">
-                    <option value="0">kabul</option>
+                    <option value="0">Kabul</option>
                     <option value="1">1</option>
                     <option value="2">2</option>
                 </select>
@@ -72,7 +72,7 @@
               <div class="form-group col-xl-5 col-lg-5 col-md-5">
                 <label for="" class="pay-font3">Date of Birth</label>
                 <div class="row">
-                  <div class="col-xl-3 col-lg-3 col-md-4 col-4">
+                  <div class="col-xl-3 col-lg-4 col-md-4 col-4">
                     <label for="" class="pay-font4">Day</label>
                     <select class="pay-selected2">
                         <option value="0">1</option>
@@ -80,7 +80,7 @@
                         <option value="2">3</option>
                     </select>
                   </div>
-                  <div class="col-xl-3 col-lg-3 col-md-4 col-4">
+                  <div class="col-xl-3 col-lg-4 col-md-4 col-4">
                     <label for="" class="pay-font4">Month</label>
                     <select class="pay-selected2">
                         <option value="0">12</option>
@@ -88,7 +88,7 @@
                         <option value="2">2</option>
                     </select>
                   </div>
-                  <div class="col-xl-3 col-lg-3 col-md-4 col-4">
+                  <div class="col-xl-3 col-lg-4 col-md-4 col-4">
                     <label for="" class="pay-font4">Year</label>
                     <select class="pay-selected2">
                         <option value="0">2018</option>
