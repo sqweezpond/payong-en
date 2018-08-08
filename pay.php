@@ -52,7 +52,7 @@
             <div class="form-row pay-m-t">
               <div class="form-group col-xl-5 col-lg-5 col-md-5">
                 <label for="" class="pay-font3">Country of Birth</label>
-                <select class="pay-selected">
+                <select class="pay-selected custom-select">
                     <option value="0">Afghanistan</option>
                     <option value="1">1</option>
                     <option value="2">2</option>
@@ -60,7 +60,7 @@
               </div>
               <div class="form-group offset-xl-1 offset-lg-1 offset-md-1 col-xl-5 col-lg-5 col-md-5">
                 <label for="" class="pay-font3">State of Birth</label>
-                <select class="pay-selected">
+                <select class="pay-selected custom-select">
                     <option value="0">Kabul</option>
                     <option value="1">1</option>
                     <option value="2">2</option>
@@ -74,7 +74,7 @@
                 <div class="row">
                   <div class="col-xl-3 col-lg-4 col-md-4 col-4">
                     <label for="" class="pay-font4">Day</label>
-                    <select class="pay-selected2">
+                    <select class="pay-selected2 custom-select">
                         <option value="0">1</option>
                         <option value="1">2</option>
                         <option value="2">3</option>
@@ -82,7 +82,7 @@
                   </div>
                   <div class="col-xl-3 col-lg-4 col-md-4 col-4">
                     <label for="" class="pay-font4">Month</label>
-                    <select class="pay-selected2">
+                    <select class="pay-selected2 custom-select">
                         <option value="0">12</option>
                         <option value="1">1</option>
                         <option value="2">2</option>
@@ -90,7 +90,7 @@
                   </div>
                   <div class="col-xl-3 col-lg-4 col-md-4 col-4">
                     <label for="" class="pay-font4">Year</label>
-                    <select class="pay-selected2">
+                    <select class="pay-selected2 custom-select">
                         <option value="0">2018</option>
                         <option value="1">2019</option>
                         <option value="2">2020</option>
@@ -103,7 +103,7 @@
                 <div class="row">
                   <div class="col-xl-3 col-lg-3 col-md-4 col-4">
                     <label for="" class="pay-font4">Hour</label>
-                    <select class="pay-selected2">
+                    <select class="pay-selected2 custom-select">
                         <option value="0">1</option>
                         <option value="1">2</option>
                         <option value="2">3</option>
@@ -111,7 +111,7 @@
                   </div>
                   <div class="col-xl-3 col-lg-3 col-md-4 col-4">
                     <label for="" class="pay-font4">Minute</label>
-                    <select class="pay-selected2">
+                    <select class="pay-selected2 custom-select">
                         <option value="0">12</option>
                         <option value="1">1</option>
                         <option value="2">2</option>
